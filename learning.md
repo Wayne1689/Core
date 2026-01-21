@@ -2,7 +2,6 @@
 
 - Detail :
 	- In initial and have to use the reg variable. 
-	- >> shift 
 	- $singed() is to changed the way display and calculation, it don't change the number 
 	- ASR , Arithmetic Shift right, used to signed number. When shifting, it add 1 in the top bit. 
 	- SLR, shift right logic, used to unsigned number. When shifting, it add 0 in the top bit.
