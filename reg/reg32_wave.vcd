@@ -1,0 +1,71 @@
+$date
+	Thu Jan 22 23:07:50 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module reg32_tb $end
+$var wire 32 ! t_out [31:0] $end
+$var reg 1 " t_clk $end
+$var reg 32 # t_in [31:0] $end
+$var reg 1 $ t_res $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 32 % in [31:0] $end
+$var wire 1 $ res_n $end
+$var reg 32 & out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx &
+b1100100 %
+0$
+b1100100 #
+0"
+bx !
+$end
+#5
+b0 !
+b0 &
+1"
+#10
+0"
+#13
+1$
+#15
+b1100100 !
+b1100100 &
+1"
+#18
+b11001000 #
+b11001000 %
+#20
+0"
+#25
+b11001000 !
+b11001000 &
+1"
+#28
+b100101100 #
+b100101100 %
+#30
+0"
+#35
+b100101100 !
+b100101100 &
+1"
+#40
+0"
+#45
+1"
+#50
+0"
+#53
